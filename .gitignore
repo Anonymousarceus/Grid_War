@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Database file (resets on each machine anyway)
+server/grid.db
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Vite build output
+client/dist/
+client/.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
