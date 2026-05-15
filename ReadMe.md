@@ -1,5 +1,11 @@
 # 🎮 Grid Wars — Project README
 
+
+
+<img width="943" height="472" alt="Screenshot 2026-05-15 202003" src="https://github.com/user-attachments/assets/fdd01581-81da-486b-8c1b-6aefcf92d30e" />
+<img width="929" height="473" alt="Screenshot 2026-05-15 201951" src="https://github.com/user-attachments/assets/72754466-2dc9-42f8-ae71-e24c638e1308" />
+
+
 A real-time multiplayer tile-capturing game. Players click tiles on a shared grid to claim them. Everyone online sees changes instantly.
 
 ---
@@ -292,6 +298,4 @@ Open `server/index.js` and find `< 400` — change 400 to however many milliseco
 | **SQLite (better-sqlite3)** | Lightweight file-based database — no setup needed |
 | **UUID** | Generates unique IDs for each player |
 
-<img width="943" height="472" alt="Screenshot 2026-05-15 202003" src="https://github.com/user-attachments/assets/fdd01581-81da-486b-8c1b-6aefcf92d30e" />
-<img width="929" height="473" alt="Screenshot 2026-05-15 201951" src="https://github.com/user-attachments/assets/72754466-2dc9-42f8-ae71-e24c638e1308" />
 
