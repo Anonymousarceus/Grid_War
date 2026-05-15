@@ -7,7 +7,8 @@ export function useSocket() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    socketRef.current = io(); // Vite proxy handles the URL
+    const SERVER_URL = import.meta.env.VITE_SERVER_URL || '';
+    socketRef.current = io(SERVER_URL);
 
     socketRef.current.on('connect', () => setConnected(true));
     socketRef.current.on('disconnect', () => setConnected(false));
